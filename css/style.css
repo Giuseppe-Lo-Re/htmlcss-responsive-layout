@@ -1,0 +1,63 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* COMMON */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.mobile-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* END COMMON */
+
+
+/* HEADER */
+
+header {
+    height: 5rem;
+    background-color: #0084fd;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.main-menu {
+    display: none;
+}
+
+/* END HEADER */
+
+
+
+/****************** MEDIA QUERY ******************/
+
+@media screen and (min-width: 768px) {
+
+    .burger {
+        display: none; 
+    }
+    
+    .main-menu {
+        display: block;
+    }
+    
+}
