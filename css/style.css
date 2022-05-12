@@ -54,6 +54,8 @@ section {
     padding-bottom: 3rem;
 }
 
+/* Intro section */
+
 .intro-columns {
     display: flex;
     flex-wrap: wrap;
@@ -66,25 +68,39 @@ section {
     border: 1px solid red;
 }
 
+/* Strategy section */
+
 .strategy-col {
 
     /* test */
     border: 1px solid red;
 }
 
+/* Testimonials section */
+
+.card {
+    /* test */
+    border: 1px solid red;
+
+}
+
 /* END MAIN */
 
-/****************** MEDIA QUERY ******************/
+/********************** MEDIA QUERY **********************/
 
  /* TEST per inspector breakpoints */
 @media screen and (min-width: 480px) {
 }
+
 
 /*----------------- TABLET ----------------- */
 
 @media screen and (min-width: 768px) {
 
     /* MAIN */
+
+
+    /* Intro section */
 
     .intro-columns {
         margin-left: -1rem;
@@ -99,7 +115,14 @@ section {
     .intro-col:first-child {
         width: calc((100% / 3) * 2);
     }
+
+    /* Testimonials Section */
+
+    .card {
+        display: flex;
+    }
 }
+
 
 /*----------------- DESKTOP ----------------- */
 
