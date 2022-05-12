@@ -34,7 +34,7 @@ img {
 }
 
 .btn-large {
-    padding: 0.5rem 2.5rem;
+    padding: 0.5rem 3rem;
     border-radius: 20px;
     display: inline-block;
 }
@@ -133,9 +133,10 @@ section {
 }
 
 .double-col img {
-    width: 60%;
+    width: 80%;
     padding-top: 2rem;
     display: block;
+    padding-left: 6rem;
 }
 
 .intro-columns h2 {
@@ -145,15 +146,19 @@ section {
 
 .intro-columns .text {
     padding:  0 2rem;
+    color: #70899f;
+    font-weight: 700;
 }
 
 .intro-columns .btn-large {
     font-weight: 700;
+    margin-top: 2rem;
 }
 
 .intro-columns span {
     padding-right: 0.6rem;
 }
+
 /* Strategy section */
 
 .strategy-col {
