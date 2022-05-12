@@ -15,6 +15,7 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .mobile-padding {
@@ -78,10 +79,19 @@ section {
 
 /* Testimonials section */
 
-.card {
+.review-card {
     /* test */
     border: 1px solid red;
 
+}
+
+/* Benefits Section */
+
+.benefits-card {
+
+    padding: 1rem;
+    /* test */
+    border: 1px solid red
 }
 
 /* END MAIN */
@@ -98,7 +108,6 @@ section {
 @media screen and (min-width: 768px) {
 
     /* MAIN */
-
 
     /* Intro section */
 
@@ -118,9 +127,23 @@ section {
 
     /* Testimonials Section */
 
-    .card {
+    .review-card {
         display: flex;
     }
+
+    /* Benefits Section */
+
+    .benefits-cards-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits-card {
+        width: 50%;
+    }
+
+    /* END MAIN */
 }
 
 
@@ -138,7 +161,22 @@ section {
         display: block;
     } 
     
+    /* END HEADER */
+
+
+    /* MAIN */
+
+    /* Strategy Section */
+
     .strategy-columns {
         display: flex;
     }
+
+    /* Benefits Section */
+
+    .benefits-card {
+        width: calc(100% / 3)
+    }
+
+    /* END MAIN */
 }
