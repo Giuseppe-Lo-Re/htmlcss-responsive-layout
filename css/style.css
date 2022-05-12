@@ -27,6 +27,11 @@ img {
     width: 100%;
 }
 
+.icon {
+    color: #0e84fd;
+    
+}
+
 .btn-small {
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -128,7 +133,6 @@ section {
 
 .double-col,
 .single-col {
-    /* padding-bottom: 1rem; */
     background-color:#b5ddff;  
 }
 
@@ -139,20 +143,21 @@ section {
     padding-left: 6rem;
 }
 
-.intro-columns h2 {
+.intro-columns h2,
+.icon {
  color: #0e84fd;
  padding: 1.5rem;
+ text-align: center;
 }
 
 .intro-columns .text {
-    padding:  0 2rem;
+    padding: 0 2rem 3rem 2rem;
     color: #70899f;
     font-weight: 700;
 }
 
 .intro-columns .btn-large {
     font-weight: 700;
-    margin-top: 2rem;
 }
 
 .intro-columns span {
