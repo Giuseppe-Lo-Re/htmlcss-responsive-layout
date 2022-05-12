@@ -55,9 +55,8 @@ nav {
     .burger {
         display: none; 
     }
-    
+
     .main-menu {
         display: block;
-    }
-    
+    }  
 }
