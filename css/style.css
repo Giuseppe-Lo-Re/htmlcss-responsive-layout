@@ -18,19 +18,40 @@ body {
     width: 100%;
 }
 
-.mobile-padding {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
 a {
     text-decoration: none;
     color: inherit;
 }
 
-.btn {
+img {
+    width: 100%;
+}
+
+.btn-small {
     padding: 0.5rem 1rem;
     border-radius: 20px;
+    display: inline-block;
+}
+
+.btn-large {
+    padding: 0.5rem 2.5rem;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+/* Utility */
+.mobile-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.b-radius-small {
+
+}
+
+.b-radius-large {
+
 }
 /* END COMMON */
 
@@ -70,8 +91,6 @@ li:last-child a {
     background-color: white;
     color: black;
 }
-
-
 /* END HEADER */
 
 
@@ -91,11 +110,50 @@ section {
 .intro-col {
     width: 100%;
     padding-bottom: 1rem;
-
-    /* test */
-    border: 1px solid red;
 }
 
+.intro-col .btn-large {
+    background-color:#0e84fd;
+    color: white;
+}
+
+.double-col {
+    text-align: center;
+}
+
+.double-col,
+.single-col {
+    border-radius: 20px;   
+}
+
+.double-col,
+.single-col {
+    /* padding-bottom: 1rem; */
+    background-color:#b5ddff;  
+}
+
+.double-col img {
+    width: 60%;
+    padding-top: 2rem;
+    display: block;
+}
+
+.intro-columns h2 {
+ color: #0e84fd;
+ padding: 1.5rem;
+}
+
+.intro-columns .text {
+    padding:  0 2rem;
+}
+
+.intro-columns .btn-large {
+    font-weight: 700;
+}
+
+.intro-columns span {
+    padding-right: 0.6rem;
+}
 /* Strategy section */
 
 .strategy-col {
@@ -165,12 +223,13 @@ footer {
 
     .intro-col {
         width: calc(100% / 3);
-        padding:  0 1rem;
+        padding: 1rem;
     }
 
     .intro-col:first-child {
         width: calc((100% / 3) * 2);
     }
+
 
     /* Testimonials Section */
 
@@ -229,6 +288,17 @@ footer {
 
 
     /* MAIN */
+
+    /* Intro Section */
+
+    .intro-col {
+        display: flex;
+    }
+    
+    .double-col {
+        width: 50%;   
+    }
+
     /* Strategy Section */
 
     .strategy-columns {
@@ -238,7 +308,7 @@ footer {
     /* Benefits Section */
 
     .benefits-card {
-        width: calc(100% / 3)
+        width: calc(100% / 3);
     }
     /* END MAIN */
 }
