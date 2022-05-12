@@ -47,12 +47,64 @@ nav {
 /* END HEADER */
 
 
+/* MAIN */
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.intro-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-col {
+    width: 100%;
+
+    /* test */
+    border: 1px solid green;
+
+}
+
+/* END MAIN */
 
 /****************** MEDIA QUERY ******************/
 
+ /* TEST per inspector breakpoints */
+@media screen and (min-width: 480px) {
+}
+
+/* TABLET */
+
 @media screen and (min-width: 768px) {
 
-    .burger {
+    /* MAIN */
+
+    .intro-columns {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        
+    }
+
+    .intro-col {
+        width: calc(100% / 3);
+        padding:  0 1rem;
+    }
+
+    .intro-col:first-child {
+        width: calc((100% / 3) * 2);
+    }
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+
+    /* HEADER */
+
+    .burger-button {
         display: none; 
     }
 
