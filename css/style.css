@@ -63,8 +63,13 @@ section {
     width: 100%;
 
     /* test */
-    border: 1px solid green;
+    border: 1px solid red;
+}
 
+.strategy-col {
+
+    /* test */
+    border: 1px solid red;
 }
 
 /* END MAIN */
@@ -75,7 +80,7 @@ section {
 @media screen and (min-width: 480px) {
 }
 
-/* TABLET */
+/*----------------- TABLET ----------------- */
 
 @media screen and (min-width: 768px) {
 
@@ -83,8 +88,7 @@ section {
 
     .intro-columns {
         margin-left: -1rem;
-        margin-right: -1rem;
-        
+        margin-right: -1rem;  
     }
 
     .intro-col {
@@ -97,8 +101,7 @@ section {
     }
 }
 
-
-/* DESKTOP */
+/*----------------- DESKTOP ----------------- */
 
 @media screen and (min-width: 992px) {
 
@@ -110,5 +113,9 @@ section {
 
     .main-menu {
         display: block;
-    }  
+    } 
+    
+    .strategy-columns {
+        display: flex;
+    }
 }
