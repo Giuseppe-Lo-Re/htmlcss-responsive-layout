@@ -27,7 +27,6 @@ body {
 
 
 /* HEADER */
-
 header {
     height: 5rem;
     background-color: #0084fd;
@@ -49,7 +48,6 @@ nav {
 
 
 /* MAIN */
-
 section {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -108,6 +106,15 @@ section {
 }
 /* END MAIN */
 
+
+/* FOOTER */
+footer {
+    height: 10rem;
+    background-color: #333333;
+    color: white;
+}
+/* END FOOTER */
+
 /********************** MEDIA QUERY **********************/
 
  /* TEST per inspector breakpoints */
@@ -115,12 +122,11 @@ section {
 }
 
 
-/*----------------- TABLET ----------------- */
+/* ----------------- TABLET ----------------- */
 
 @media screen and (min-width: 768px) {
 
     /* MAIN */
-
     /* Intro section */
 
     .intro-columns {
@@ -161,16 +167,27 @@ section {
         display: flex;
     }
 
+    /* Get Started Section */
+    .getstarted {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
     /* END MAIN */
+
+    
+    /* FOOTER */
+    footer .container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    /* END FOOTER */
 }
 
-
-/*----------------- DESKTOP ----------------- */
+/* ----------------- DESKTOP ----------------- */
 
 @media screen and (min-width: 992px) {
 
     /* HEADER */
-
     .burger-button {
         display: none; 
     }
@@ -178,12 +195,10 @@ section {
     .main-menu {
         display: block;
     } 
-    
     /* END HEADER */
 
 
     /* MAIN */
-
     /* Strategy Section */
 
     .strategy-columns {
@@ -195,8 +210,5 @@ section {
     .benefits-card {
         width: calc(100% / 3)
     }
-
-    /* About Us Section */
-
     /* END MAIN */
 }
