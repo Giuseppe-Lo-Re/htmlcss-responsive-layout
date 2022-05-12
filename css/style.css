@@ -88,8 +88,14 @@ section {
 /* Benefits Section */
 
 .benefits-card {
-
     padding: 1rem;
+    /* test */
+    border: 1px solid red
+}
+
+/* About Us Section */
+
+.aboutus-col {
     /* test */
     border: 1px solid red
 }
@@ -143,6 +149,12 @@ section {
         width: 50%;
     }
 
+    /* About Us Section */
+
+    .aboutus-columns {
+        display: flex;
+    }
+
     /* END MAIN */
 }
 
@@ -177,6 +189,8 @@ section {
     .benefits-card {
         width: calc(100% / 3)
     }
+
+    /* About Us Section */
 
     /* END MAIN */
 }
