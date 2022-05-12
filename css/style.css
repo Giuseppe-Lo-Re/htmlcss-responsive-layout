@@ -120,18 +120,23 @@ section {
 .intro-col .btn-large {
     background-color:#0e84fd;
     color: white;
+    margin-bottom: 2rem;
 }
 
 .double-col {
     text-align: center;
 }
 
-.double-col,
+.double-col-container {
+
+}
+
+.double-col-container,
 .single-col {
     border-radius: 20px;   
 }
 
-.double-col,
+.double-col-container,
 .single-col {
     background-color:#b5ddff;  
 }
@@ -146,7 +151,7 @@ section {
 .intro-columns h2,
 .icon {
  color: #0e84fd;
- padding: 1.5rem;
+ padding: 2rem;
  text-align: center;
 }
 
@@ -301,7 +306,7 @@ footer {
 
     /* Intro Section */
 
-    .intro-col {
+    .double-col-container {
         display: flex;
     }
     
@@ -309,6 +314,9 @@ footer {
         width: 50%;   
     }
 
+    .double-col img {
+        width: 100%;
+    }
     /* Strategy Section */
 
     .strategy-columns {
