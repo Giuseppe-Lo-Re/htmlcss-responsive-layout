@@ -201,10 +201,9 @@ section {
 }
 /* Testimonials section */
 
-.pre-title,
-.top-testimonials h3
- {
-    text-align: center;  
+#testimonials {
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .top-testimonials h3 {
@@ -212,10 +211,24 @@ section {
     font-size: 2rem;
     padding: 2rem 0;
 }
+
+.review-card img {
+    width: 18rem;
+    border-radius: 20%;
+}
+
 .review-card {
+    background-color: #9792e4;
+    color: white;
+    text-align: center;
     /* test */
     border: 1px solid red;
+}
 
+.author {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 /* Benefits Section */
