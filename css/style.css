@@ -42,6 +42,14 @@ h2 {
     display: inline-block;
 }
 
+.square-img-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 2rem 0; 
+}
 
 /* Utility */
 .mobile-padding {
@@ -59,7 +67,7 @@ h2 {
 }
 
 .line-height {
-    line-height: 1.7em;
+    line-height: 2rem;
 }
 
 .font-size {
@@ -77,6 +85,7 @@ h2 {
 .bradius-50 {
     border-radius: 50px;
 }
+
 /* END COMMON */
 
 
@@ -217,16 +226,6 @@ section {
     padding: 2rem 0;
 }
 
-.square-img-box {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-    margin: 2rem 0;
-    
-}
-
 .square-img-box img {     
     height: 100%;
     object-fit: cover;
@@ -294,16 +293,81 @@ section {
 
 /* About Us Section */
 
-.aboutus-col {
-    /* test */
-    border: 1px solid red
+.aboutus-col h2 {
+    font-size: 3rem;
+    color: #9792e4;
+    padding-bottom: 2rem;
 }
 
+.aboutus-col h4 {
+    font-size: 1.7rem;
+    color: #9792e4;
+    padding-bottom: 1.5rem;
+}
+
+.aboutus-col .text {
+    line-height: 2rem;
+    padding-bottom: 3rem;
+}
+
+.aboutus-col .btn-small {
+    background-color: #9792e4;
+    color: white;
+}
+
+.quote {
+    color: #9792e4;
+    font-size: 15rem;
+    display: inline-block;
+}
+
+.aboutus-col span {
+    padding-right: 0.7rem;
+    
+}
 /* Get Started Section */
 
-.getstarted {
-    /* test */
-    border: 1px solid red
+#getstarted {
+    background-color: #9792e4;
+    text-align: center;
+}
+
+.pre-title {
+    color: #c8c5f0;
+    font-size: 1.2rem;
+    padding-bottom: 1.3rem;
+}
+
+.getstarted h3 {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.getstarted h2 {
+    color: #fdc15f;
+    font-size: 3.2rem;
+}
+
+.getstarted .text {
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.getstarted .btn-large {
+    background-color: white;
+    color: #9792e4;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1rem 5rem;
+}
+
+.copyright{
+    color: white;
+    padding: 2rem 0;
+}
+
+.copyright a{
+    text-decoration: underline;
 }
 /* END MAIN */
 
@@ -363,8 +427,8 @@ footer {
         align-items: center;
     }
 
-    .square-img-box {
-        width: 60%;
+    .cards-container .square-img-box {
+        width: 65%;
         margin-left: 1rem;
     }
 
@@ -385,10 +449,15 @@ footer {
         width:calc(50% - 1rem) 
     }
 
+
     /* About Us Section */
 
     .aboutus-columns {
         display: flex;
+    }
+
+    .aboutus-col {
+        padding: 0 2rem;
     }
 
     /* Get Started Section */
