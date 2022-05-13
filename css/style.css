@@ -27,9 +27,9 @@ img {
     width: 100%;
 }
 
-.icon {
-    color: #0e84fd;
-    
+h2 {
+    text-align: center;
+    padding: 1rem 0;
 }
 
 .btn-small {
@@ -51,13 +51,22 @@ img {
     padding-right: 2rem;
 }
 
-.b-radius-small {
-
+.padding-bottom {
+    padding-bottom: 2rem;
 }
 
-.b-radius-large {
-
+.italic {
+    font-style: italic;
 }
+
+.font-size {
+    font-size: 2rem;
+}
+
+.align-left {
+    text-align: left;
+}
+
 /* END COMMON */
 
 
@@ -127,13 +136,10 @@ section {
     text-align: center;
 }
 
-.double-col-container {
-
-}
-
 .double-col-container,
 .single-col {
-    border-radius: 20px;   
+    border-radius: 20px;  
+    padding-top: 2rem;  
 }
 
 .double-col-container,
@@ -142,7 +148,6 @@ section {
 }
 
 .double-col img {
-    width: 80%;
     padding-top: 2rem;
     display: block;
     padding-left: 6rem;
@@ -151,7 +156,7 @@ section {
 .intro-columns h2,
 .icon {
  color: #0e84fd;
- padding: 2rem;
+ padding: 1rem;
  text-align: center;
 }
 
@@ -171,14 +176,42 @@ section {
 
 /* Strategy section */
 
-.strategy-col {
-
-    /* test */
-    border: 1px solid red;
+#planning {
+    background-color:#9792e4 ;
+    color: white;
 }
 
+.white-container {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.strategy-col img {
+    padding-top: 2rem;
+}
+
+.btn-arrow {
+    background-color:#9792e4;
+    display: inline-block;
+    padding: 1rem 1.4rem;
+    border-radius: 50px;
+    margin: 2rem 0;
+}
 /* Testimonials section */
 
+.pre-title,
+.top-testimonials h3
+ {
+    text-align: center;  
+}
+
+.top-testimonials h3 {
+    color: #9792e4;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
 .review-card {
     /* test */
     border: 1px solid red;
@@ -246,6 +279,13 @@ footer {
     }
 
 
+    /* Strategy section */
+
+    .font-size {
+        font-size: 3rem;
+    }
+
+
     /* Testimonials Section */
 
     .review-card {
@@ -308,15 +348,13 @@ footer {
 
     .double-col-container {
         display: flex;
+        align-items: flex-end;
     }
     
     .double-col {
         width: 50%;   
     }
 
-    .double-col img {
-        width: 100%;
-    }
     /* Strategy Section */
 
     .strategy-columns {
