@@ -7,7 +7,6 @@
 
 
 /* COMMON */
-
 body {
     font-family: 'PT Sans', sans-serif;
 }
@@ -86,6 +85,9 @@ h2 {
     border-radius: 50px;
 }
 
+.container-small {
+    width: 100%;
+}
 /* END COMMON */
 
 
@@ -160,7 +162,6 @@ section {
     padding-top: 2rem;  
     background-color:#b5ddff; 
 }
-
 
 .double-col img {
     padding-top: 2rem;
@@ -340,7 +341,7 @@ section {
 
 .getstarted h3 {
     color: white;
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .getstarted h2 {
@@ -374,10 +375,21 @@ section {
 
 /* FOOTER */
 footer {
-    height: 10rem;
     background-color: #333333;
     color: white;
+    text-align: center;
 }
+
+footer .text {
+    padding: 2rem;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #9792e4;
+}
+
+
 /* END FOOTER */
 
 /********************** MEDIA QUERY **********************/
@@ -465,6 +477,12 @@ footer {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
     }
+
+    .container-small {
+        width: 50%;
+        margin: 0 auto;
+    }
+
     /* END MAIN */
 
 
@@ -523,6 +541,13 @@ footer {
 
     .benefits-card {
         width:calc(100% / 3 - 1.3rem)
+    }
+
+    /* Get Started Section */
+
+    .container-small {
+        width: 35%;
+        margin: 0 auto;
     }
     /* END MAIN */
 }
