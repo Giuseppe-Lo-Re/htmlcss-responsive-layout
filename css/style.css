@@ -55,8 +55,9 @@ h2 {
     padding-bottom: 2rem;
 }
 
-.italic {
+.italic-lineheight {
     font-style: italic;
+    line-height: 2em;
 }
 
 .font-size {
@@ -67,6 +68,9 @@ h2 {
     text-align: left;
 }
 
+.rotate {
+    transform: rotate(180deg);
+}
 /* END COMMON */
 
 
@@ -123,7 +127,7 @@ section {
 
 .intro-col {
     width: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .intro-col .btn-large {
@@ -235,6 +239,12 @@ section {
     margin: 2rem 0;
 }
 
+.review-card span {
+    font-size: 5rem;
+    display: inline-block;
+    
+}
+
 .author {
     padding: 1.5rem;
     font-size: 1.2rem;
@@ -305,7 +315,7 @@ footer {
     /* Strategy section */
 
     .font-size {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
 
@@ -313,6 +323,12 @@ footer {
 
     .review-card {
         display: flex;
+        align-items: center;
+    }
+
+    .square-img-box {
+        width: 60%;
+        margin-left: 1rem;
     }
 
     /* Benefits Section */
@@ -371,7 +387,7 @@ footer {
 
     .double-col-container {
         display: flex;
-        align-items: flex-end;
+        /* align-items: flex-end; */
     }
     
     .double-col {
