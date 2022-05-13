@@ -41,13 +41,14 @@ h2 {
     display: inline-block;
 }
 
-.square-img-box {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+.aboutus-col .square-img-box {
+    width: 50%;
+    /* height: 200px; */
+    /* border-radius: 50%;
+    overflow: hidden; */
     display: inline-block;
-    margin: 2rem 0; 
+    margin: 2rem 0;
+    position: relative;     
 }
 
 /* Utility */
@@ -227,24 +228,33 @@ section {
     padding: 2rem 0;
 }
 
-.square-img-box img {     
-    height: 100%;
-    object-fit: cover;
-    
-}
-
 .review-card {
     background-color: #9792e4;
     color: white;
     margin: 2rem 0;
-    
+}
+
+.review-card .square-img-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 2rem 0;     
+}
+
+.review-card .square-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .review-card span {
-    font-size: 4rem;
+    font-size: 3rem;
     display: inline-block;
     line-height: 0;
-
+    vertical-align: bottom;
+    padding: 0 0.5rem;
 }
 
 .author {
@@ -316,10 +326,18 @@ section {
     color: white;
 }
 
+.aboutus-col .square-img-box img {     
+    border-radius: 50%;  
+}
+
 .quote {
     color: #9792e4;
-    font-size: 15rem;
+    font-size: 17rem;
     display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 9rem;
+    line-height: 1;
 }
 
 .aboutus-col span {
@@ -472,6 +490,10 @@ footer a {
         padding: 0 2rem;
     }
 
+    .aboutus-col .square-img-box {
+        width: 100%;    
+    }
+
     /* Get Started Section */
     .getstarted {
         padding-left: 2.5rem;
@@ -530,9 +552,12 @@ footer a {
         align-items: flex-end;
     }
 
+    .resize {
+        width: 70%;
+    }
     /* Testimonials Section */
 
-    .square-img-box {
+    .review-card .square-img-box {
         width: 35%;
         margin-left: 1rem;
     }
