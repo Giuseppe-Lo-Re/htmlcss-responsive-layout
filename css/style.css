@@ -34,13 +34,11 @@ h2 {
 
 .btn-small {
     padding: 0.5rem 1rem;
-    border-radius: 20px;
     display: inline-block;
 }
 
 .btn-large {
     padding: 0.5rem 3rem;
-    border-radius: 20px;
     display: inline-block;
 }
 
@@ -55,9 +53,13 @@ h2 {
     padding-bottom: 2rem;
 }
 
-.italic-lineheight {
+.italic {
     font-style: italic;
-    line-height: 2em;
+    
+}
+
+.line-height {
+    line-height: 1.7em;
 }
 
 .font-size {
@@ -68,8 +70,12 @@ h2 {
     text-align: left;
 }
 
-.rotate {
-    transform: rotate(180deg);
+.bradius-20 {
+    border-radius: 20px;
+}
+
+.bradius-50 {
+    border-radius: 50px;
 }
 /* END COMMON */
 
@@ -141,15 +147,11 @@ section {
 }
 
 .double-col-container,
-.single-col {
-    border-radius: 20px;  
+.single-col { 
     padding-top: 2rem;  
+    background-color:#b5ddff; 
 }
 
-.double-col-container,
-.single-col {
-    background-color:#b5ddff;  
-}
 
 .double-col img {
     padding-top: 2rem;
@@ -180,7 +182,8 @@ section {
 
 /* Strategy section */
 
-#planning {
+#planning,
+#features {
     background-color:#9792e4 ;
     color: white;
 }
@@ -188,7 +191,6 @@ section {
 .white-container {
     background-color: white;
     color: black;
-    border-radius: 50px;
     text-align: center;
 }
 
@@ -200,7 +202,6 @@ section {
     background-color:#9792e4;
     display: inline-block;
     padding: 1rem 1.4rem;
-    border-radius: 50px;
     margin: 2rem 0;
 }
 /* Testimonials section */
@@ -235,14 +236,15 @@ section {
 .review-card {
     background-color: #9792e4;
     color: white;
-    border-radius: 50px ;
     margin: 2rem 0;
+    
 }
 
 .review-card span {
-    font-size: 5rem;
+    font-size: 4rem;
     display: inline-block;
-    
+    line-height: 0;
+
 }
 
 .author {
@@ -254,9 +256,38 @@ section {
 /* Benefits Section */
 
 .benefits-card {
-    padding: 1rem;
-    /* test */
-    border: 1px solid red
+    padding: 1rem 2rem 2rem 2rem;
+    color: #9792e4;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+#features h2 {
+    font-size: 2.5rem;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.number {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#features .text {
+    color: #a0a0a0;
+    line-height: 1.7rem;
+    padding-bottom: 2rem;
+}
+
+#features .btn-large {
+    background-color: #9792e4;
+    color: white;
+    font-weight: 700;
+    margin-top: 3rem 0;
+
 }
 
 /* About Us Section */
@@ -311,6 +342,10 @@ footer {
         width: calc((100% / 3) * 2);
     }
 
+    .double-col-container,
+    .single-col {
+        height: 100%;
+    }
 
     /* Strategy section */
 
@@ -331,6 +366,10 @@ footer {
         margin-left: 1rem;
     }
 
+    .author {
+        display: flex;
+    }
+
     /* Benefits Section */
 
     .benefits-cards-container {
@@ -340,7 +379,7 @@ footer {
     }
 
     .benefits-card {
-        width: 50%;
+        width: 50%; 
     }
 
     /* About Us Section */
@@ -399,6 +438,13 @@ footer {
     .strategy-columns {
         display: flex;
         align-items: flex-end;
+    }
+
+    /* Testimonials Section */
+
+    .square-img-box {
+        width: 35%;
+        margin-left: 1rem;
     }
 
     /* Benefits Section */
