@@ -113,6 +113,7 @@ nav {
 header ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
 }
 
 li {
@@ -202,6 +203,10 @@ section {
 .white-container {
     background-color: white;
     color: black;
+    text-align: center;
+}
+
+.strategy-col {
     text-align: center;
 }
 
@@ -324,6 +329,7 @@ section {
 .aboutus-col .btn-small {
     background-color: #9792e4;
     color: white;
+    font-size: 0.8rem;
 }
 
 .aboutus-col .square-img-box img {     
@@ -341,7 +347,7 @@ section {
 }
 
 .aboutus-col span {
-    padding-right: 0.7rem;
+    padding-right: 0.3rem;
     
 }
 /* Get Started Section */
@@ -449,7 +455,10 @@ footer a {
         font-size: 4rem;
     }
 
-
+    .resize {
+        width: 70%;
+    }
+    
     /* Testimonials Section */
 
     .review-card {
@@ -494,6 +503,15 @@ footer a {
         width: 100%;    
     }
 
+    .quote {
+        font-size: 10rem;
+        left: 5.8rem
+    }
+
+    .aboutus-col .btn-small {
+        padding: 0.5rem 0.4rem;
+
+    }
     /* Get Started Section */
     .getstarted {
         padding-left: 2.5rem;
@@ -545,6 +563,12 @@ footer a {
         width: 50%;   
     }
 
+    .double-col img {
+        padding-top: 6.5rem;
+        padding-left: 1rem;
+        width: 85%;
+    }
+
     /* Strategy Section */
 
     .strategy-columns {
@@ -552,14 +576,36 @@ footer a {
         align-items: flex-end;
     }
 
-    .resize {
-        width: 70%;
+    .strategy-col {
+        text-align: left;
+        padding-right: 3rem;
     }
+
+    .strategy-col img {
+        width: 80%;
+    }
+
+    .white-container img {
+        width: 60%;
+    }
+
+    .strategy-col h2{
+        font-size: 2rem;
+        padding-top: 5rem;
+    }
+
+    .white-container h2{
+        padding-top: 0;
+    }
+
+
+
     /* Testimonials Section */
 
     .review-card .square-img-box {
         width: 35%;
         margin-left: 1rem;
+        
     }
 
     /* Benefits Section */
