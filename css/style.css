@@ -212,17 +212,27 @@ section {
     padding: 2rem 0;
 }
 
-.review-card img {
-    width: 18rem;
-    border-radius: 20%;
+.square-img-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 2rem 0;
+    
+}
+
+.square-img-box img {     
+    height: 100%;
+    object-fit: cover;
+    
 }
 
 .review-card {
     background-color: #9792e4;
     color: white;
-    text-align: center;
-    /* test */
-    border: 1px solid red;
+    border-radius: 50px ;
+    margin: 2rem 0;
 }
 
 .author {
@@ -230,7 +240,7 @@ section {
     font-size: 1.2rem;
     font-weight: 700;
 }
-
+                                                                
 /* Benefits Section */
 
 .benefits-card {
@@ -372,6 +382,7 @@ footer {
 
     .strategy-columns {
         display: flex;
+        align-items: flex-end;
     }
 
     /* Benefits Section */
