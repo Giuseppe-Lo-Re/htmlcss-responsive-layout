@@ -43,9 +43,6 @@ h2 {
 
 .aboutus-col .square-img-box {
     width: 50%;
-    /* height: 200px; */
-    /* border-radius: 50%;
-    overflow: hidden; */
     display: inline-block;
     margin: 2rem 0;
     position: relative;     
@@ -220,6 +217,7 @@ section {
     padding: 1rem 1.4rem;
     margin: 2rem 0;
 }
+
 /* Testimonials section */
 
 #testimonials {
@@ -304,7 +302,6 @@ section {
     font-weight: 700;
     margin-top: 3rem 0;
     padding: 0.7rem 3.4rem;
-
 }
 
 /* About Us Section */
@@ -350,6 +347,7 @@ section {
     padding-right: 0.3rem;
     
 }
+
 /* Get Started Section */
 
 #getstarted {
@@ -391,7 +389,7 @@ section {
     padding: 2rem 0;
 }
 
-.copyright a{
+.copyright a {
     text-decoration: underline;
 }
 /* END MAIN */
@@ -416,11 +414,8 @@ footer a {
 
 /* END FOOTER */
 
-/********************** MEDIA QUERY **********************/
 
- /* TEST per inspector breakpoints */
-@media screen and (min-width: 480px) {
-}
+/********************** MEDIA QUERY **********************/
 
 
 /* ----------------- TABLET ----------------- */
@@ -488,7 +483,6 @@ footer a {
         width:calc(50% - 1rem) 
     }
 
-
     /* About Us Section */
 
     .aboutus-columns {
@@ -512,7 +506,9 @@ footer a {
         padding: 0.5rem 0.4rem;
 
     }
+
     /* Get Started Section */
+
     .getstarted {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
@@ -522,7 +518,6 @@ footer a {
         width: 50%;
         margin: 0 auto;
     }
-
     /* END MAIN */
 
 
@@ -534,7 +529,9 @@ footer a {
     /* END FOOTER */
 }
 
+
 /* ----------------- DESKTOP ----------------- */
+
 
 @media screen and (min-width: 992px) {
 
@@ -549,14 +546,13 @@ footer a {
     } 
     /* END HEADER */
 
-
     /* MAIN */
 
     /* Intro Section */
 
     .double-col-container {
         display: flex;
-        /* align-items: flex-end; */
+        
     }
     
     .double-col {
@@ -605,7 +601,10 @@ footer a {
     .review-card .square-img-box {
         width: 35%;
         margin-left: 1rem;
-        
+    }
+
+    .author {
+        padding: 3rem;
     }
 
     /* Benefits Section */
